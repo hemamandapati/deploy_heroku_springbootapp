@@ -6,8 +6,6 @@ import jakarta.persistence.Id;
 
 public class EmployeeBean {
 
-	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int advisor_id;
 	
 	private String first_name;
